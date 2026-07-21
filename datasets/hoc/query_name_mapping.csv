@@ -1,0 +1,11 @@
+query_name,query_description
+hoc_sustaining_proliferative_signaling,Identify if the abstract describes cancer cells sustaining proliferative signaling.
+hoc_evading_growth_suppressors,Identify if the abstract describes cancer cells evading growth suppressors.
+hoc_resisting_cell_death,Identify if the abstract describes cancer cells resisting cell death.
+hoc_enabling_replicative_immortality,Identify if the abstract describes cancer cells enabling replicative immortality.
+hoc_inducing_angiogenesis,Identify if the abstract describes tumors inducing angiogenesis.
+hoc_activating_invasion_and_metastasis,Identify if the abstract describes cancer cells activating invasion and metastasis.
+hoc_genomic_instability_and_mutation,Identify if the abstract describes genome instability and mutation.
+hoc_tumor_promoting_inflammation,Identify if the abstract describes tumor-promoting inflammation.
+hoc_cellular_energetics,Identify if the abstract describes deregulation of cellular energetics.
+hoc_avoiding_immune_destruction,Identify if the abstract describes cancer cells avoiding immune destruction.

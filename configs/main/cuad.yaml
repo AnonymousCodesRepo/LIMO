@@ -1,0 +1,79 @@
+# Main experiment — cost_at_accuracy_target, CUAD, method = Ours (LIMO).
+
+
+data:
+  dataset: cuad
+  queries: all_eval
+  within_query_order: doc_id_asc
+  order_seed: 0
+
+experience_pool:
+  # Start from the E_0 pool the fit produces (mode:fit writes experiences.jsonl
+  # before the pool is built), rather than an empty pool.
+  source: runs/pretrain/cuad/experiences.jsonl
+
+experience_retr:
+  name: care_pq
+  kwargs:
+    k: 8
+    blend_lambda: 20.0
+
+experience_gen:
+  name: online_discrepancy
+  kwargs:
+    max_per_query: 50
+    domain: "legal"
+    position_gate_rho: 8.032
+
+fewshot_retr:
+  name: topk_semantic
+  kwargs:
+    k: 0
+
+router:
+  name: lightgbm
+  kwargs:
+    threshold: 0.95
+    confidence_veto: 0.58
+    backend: sklearn_hgb
+    n_estimators: 200
+    learning_rate: 0.05
+    num_leaves: 31
+    min_child_samples: 20
+    reg_lambda: 1.0
+    calibration_method: none
+    class_weight: balanced
+    use_care_features: true
+    refit_every: 100                # cuad refit cadence (processed data points)
+    online_buffer_max: 10000
+    bootstrap_threshold: 0.9
+    freeze_after_load: false
+
+pretrain:
+  mode: fit                         # regenerate the Section-6 warm-start, then load it
+  output_dir: runs/pretrain/cuad
+  fit:
+    synth:
+      n_predicates: 40
+      docs_per_query: 30
+      n_clusters: 20
+      rng_seed: 0
+    label:
+      rounds: 4
+      budget_per_round: [100, 100, 100, 100]
+      k_experiences: 8
+      seed: 1
+      acq_conf_cap: 0.57
+      domain: "legal"
+
+llms:
+  small_prompt_mode: 3way
+  large_prediction_cache:
+    - examples/predictions/zeroshot_all_queries/Llama-3.1-70B-Instruct_zeroshot_cuad.csv
+
+runner:
+  workers: 8
+  gen_workers: 6
+
+reporting:
+  output: runs/main/cuad.json

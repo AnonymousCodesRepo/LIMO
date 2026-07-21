@@ -1,0 +1,75 @@
+# Main experiment — cost_at_accuracy_target, Policy (opp115), method = Ours (LIMO).
+#
+
+data:
+  dataset: opp115
+  queries: all_eval
+  within_query_order: doc_id_asc
+  order_seed: 0
+
+experience_pool:
+  source: empty
+
+experience_retr:
+  name: care_pq
+  kwargs:
+    k: 8
+    blend_lambda: 20.0
+
+experience_gen:
+  name: online_discrepancy
+  kwargs:
+    max_per_query: 50
+    domain: "privacy-policy"
+    position_gate_rho: 6.4
+
+fewshot_retr:
+  name: topk_semantic
+  kwargs:
+    k: 0                           # few-shot disabled; experiences are the mechanism
+
+router:
+  name: lightgbm
+  kwargs:
+    threshold: 0.05
+    backend: sklearn_hgb
+    n_estimators: 200
+    learning_rate: 0.05
+    num_leaves: 31
+    min_child_samples: 20
+    reg_lambda: 1.0
+    calibration_method: none
+    class_weight: balanced
+    use_care_features: true
+    refit_every: 500               # online refit cadence (processed data points)
+    online_buffer_max: 10000
+    bootstrap_threshold: 0.9
+    freeze_after_load: false
+
+pretrain:
+  mode: fit                        # run the Section-6 warm-start, then load it
+  output_dir: runs/pretrain/opp115
+  fit:
+    synth:
+      n_predicates: 40
+      docs_per_query: 30
+      n_clusters: 20
+      rng_seed: 0
+    label:
+      rounds: 4
+      budget_per_round: [100, 100, 100, 100]
+      k_experiences: 8
+      seed: 0
+      domain: "privacy-policy"
+
+llms:
+  small_prompt_mode: 3way
+  large_prediction_cache:
+    - examples/predictions/zeroshot_all_queries/Llama-3.1-70B-Instruct_zeroshot_opp115.csv
+
+runner:
+  workers: 8
+  gen_workers: 6
+
+reporting:
+  output: runs/main/opp115.json
