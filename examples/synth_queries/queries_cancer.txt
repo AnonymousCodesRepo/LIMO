@@ -1,0 +1,40 @@
+1. Does the document discuss the effects of a histone deacetylase inhibitor on cancer cells?
+2. Does the document mention the use of all-trans-retinoic acid (ATRA) to treat cancer?
+3. Does the document describe a study in which a treatment decreases Ki67 immunostaining in the prostate?
+4. Does the document discuss proteomic signatures in breast cancer?
+5. Does the document describe a biological mechanism that negatively regulates aerobic glycolysis in cancer cells?
+6. Does the document describe the identification of a specific inhibitor of a fungal ABC transporter?
+7. Does the document discuss mutations that confer resistance to tyrosine kinase inhibitors?
+8. Does the document investigate the relationship between genetic polymorphisms and DNA adduct levels in a cohort of female never-smokers?
+9. Does the document describe a cell line established from a human uterine cervical lymphoepithelial carcinoma?
+10. Does the document describe a study on a specific DNA repair enzyme and its variants in relation to cancer?
+11. Does the document describe an experiment evaluating the toxic effects of a specific compound?
+12. Does the document describe an experiment involving exercise-trained mice with leukemia?
+13. Does the document describe an experiment using cDNA microarray analysis?
+14. Does the document describe the biochemical characterization of an enzyme?
+15. Does the document discuss the therapeutic effects of retinoids on breast cancer cells?
+16. Does the document describe a therapeutic strategy involving an antibody conjugated with a radioactive isotope?
+17. Does the document describe a study involving Epstein-Barr virus?
+18. Does the document describe a study about the activation of PI3K/AKT signaling in EGFR and HER2-driven cancers?
+19. Does the document describe a study that investigates the role of a specific protein in the pathogenesis and progression of cancer?
+20. Does the document describe a study on the effects of an anesthetic agent on cancer cell migration and invasion?
+21. Does the document describe a medical treatment method?
+22. Does the document report on a study examining the relationship between DNA repair gene variants and the risk of brain tumors?
+23. Does the document describe an investigation of the effects of a therapy on cancer cells?
+24. Does the document discuss the role of terminal sialyl and fucosyl residues in cell surface glycans?
+25. Does the document discuss a study on the mutagenic effects of a specific substance on single-strand DNA?
+26. Does the document discuss PPARgamma and its role in apoptosis?
+27. Does the document discuss a genetic mechanism underlying a neurodevelopmental disorder?
+28. Does the document discuss the Warburg effect in cancer?
+29. Does the document discuss a protein that plays a role in cell proliferation and apoptosis?
+30. Does the document discuss the induction of programmed cell death Type II-autophagy in cancer cells?
+31. Does the document discuss the role of glucose metabolism in cancer cell anoikis and metastasis?
+32. Does the document discuss the role of telomerase activity in the development and progression of cancer?
+33. Does the document discuss the role of a specific microRNA in cancer?
+34. Does the document discuss the role of Eph receptors in cell migration?
+35. Does the document describe an experiment conducted on human skin?
+36. Does the document discuss the expression of placental growth factor (PlGF) in chronic subdural hematoma (CSDH)?
+37. Does the document discuss the role of estrogen receptor-alpha in antiestrogen signaling?
+38. Does the document describe a study examining the effect of a specific chemical modification on the therapeutic efficacy of a virus-based cancer treatment?
+39. Does the document describe a system for studying the molecular mechanisms of inflammation-mediated cancer metastasis?
+40. Does the document describe a study on the effects of a dietary supplement on prostatic hyperplasia?

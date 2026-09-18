@@ -1,0 +1,40 @@
+1. Does the agreement specify a term of three years from the execution date?
+2. Does the document specify that disputes will be subject to the exclusive jurisdiction of the Tokyo District Court?
+3. Does the document require that one party indemnify the other for tax-related claims?
+4. Does the agreement grant a non-transferable, exclusive license to distribute software within a specific geographic region?
+5. Does the agreement grant one party the exclusive right to use the other party's identification?
+6. Does the document mention a 'Quality Agreement'?
+7. Does the document mention a 'Sales Term' that is defined in another agreement?
+8. Does the document specify an effective term of 12 months?
+9. Does the document mention a specific time limit for the payment of royalties after the end of each quarterly period?
+10. Does the agreement permit either party to subcontract services to a third party without the prior consent of the other party?
+11. Does the document include a non-compete clause restricting the parties' business activities?
+12. Does the document contain confidentiality obligations that include a requirement for the receiving party to obtain written prior approval from the disclosing party before disclosing confidential information to a third party?
+13. Does the document mention a party's obligation to provide a certain number of new products to the other party within a specific time frame?
+14. Does the document mention guaranteed circulation numbers for newsletters?
+15. Does the document discuss termination of the agreement upon payment of the aggregate amount of premiums paid under a policy?
+16. Does the document discuss the protection and assignment of intellectual property rights?
+17. Does the document contain a mutual non-disparagement agreement between two parties?
+18. Does the document impose a requirement for the insured to provide a certificate of insurance evidencing coverage within thirty days of the full execution of the agreement?
+19. Does the agreement specify that one party may terminate the agreement for any reason upon thirty days' notice?
+20. Does the document specify that a party's intellectual property rights are jointly owned with the other party?
+21. Does the document mention the transfer of intellectual property rights?
+22. Does the document require a party to make available records and books for inspection by the other party?
+23. Does the document describe an agreement between two parties where one party is responsible for paying royalties to the other?
+24. Does the document mention automobile liability insurance?
+25. Does the document describe an agreement that will automatically terminate in the event of its assignment?
+26. Does the document describe a grant of intellectual property rights?
+27. Does the document mention laws of the United States restricting business dealings with specific countries?
+28. Does the document discuss the indemnification of a party for trademark infringement claims?
+29. Does the document discuss the limitation of liability for indirect, incidental, consequential, special, reliance, or punitive damages?
+30. Does the document allow for the substitution of properties with mutual agreement of the parties?
+31. Does the agreement include a perpetual license to use software?
+32. Does the document grant a license for the use of a name or likeness?
+33. Does the document describe a contractual relationship that automatically renews on a yearly basis?
+34. Does the document limit the liability of parties for incidental, indirect, special, consequential or punitive damages?
+35. Does the agreement automatically renew for successive terms of one year?
+36. Does the document allow the parties to assign or transfer their rights and obligations under the agreement to affiliates?
+37. Does the document describe an agreement in which one party will provide services to secure contracts with music venues?
+38. Does the contract require a minimum shipment of 10,000 pounds of commodities per year?
+39. Does the document mention a specific payment rate per unit of energy generated?
+40. Does the document specify that any dispute arising out of or in connection with the agreement will be governed by the laws of the State of New York?

@@ -1,0 +1,40 @@
+1. Does the document describe a mechanism for opting out of communications?
+2. Does the document mention providing personal information in exchange for email newsletters?
+3. Does the document inform readers about their rights under a specific state's law?
+4. Does the document describe the use of personally identifying information for transactions and credit processing?
+5. Does the document mention sharing information with third-party technology providers for the purpose of content discovery?
+6. Does the document describe using information to customize a user's experience?
+7. Does the document mention that the entity will make efforts to delete personal information upon user request?
+8. Does the document mention sharing information with third-party providers?
+9. Does the document mention contacting the user for informational purposes related to the site?
+10. Does the document mention measures to prevent unauthorized access to collected information?
+11. Does the document discuss the collection of personal information from children?
+12. Does the document mention the use of Flash objects?
+13. Does the document describe a process for users to access, correct, or delete their personally identifiable information?
+14. Does the document mention the use of cookies?
+15. Does the document describe the use of personal health information for educational purposes?
+16. Does the document mention the collection of personally identifying information?
+17. Does the document mention preventing or addressing potentially illegal activities?
+18. Does the document mention using collected information to offer products or services from third parties?
+19. Does the document state that the company does not share personally identifiable information with third-party ad servers without user consent?
+20. Does the document describe a situation where users can opt in to receive third-party informational emails?
+21. Does the document describe a method for unsubscribing from email communications?
+22. Does the document mention using information for security purposes?
+23. Does the document mention the collection of Vehicle Identification Numbers?
+24. Does the document mention providing personal information in exchange for participating in online activities?
+25. Does the document mention sharing health information?
+26. Does the document describe the collection of information about website visitors?
+27. Does the document mention a specific contact person or role for handling information updates or changes?
+28. Does the document describe the sharing of personal information or credit card information with third-party services?
+29. Does the document mention providing an opportunity to opt-out of communications?
+30. Does the document mention the possibility of changing the policy?
+31. Does the document describe a circumstance in which the user can opt-in to share their personal information with third-party companies?
+32. Does the document discuss a parent's rights under COPPA?
+33. Does the document describe how metadata can be added to user content?
+34. Does the document discuss providing personal information for a transaction?
+35. Is the document primarily focused on the types of information collected?
+36. Does the document mention the use of location information?
+37. Does the document discuss sharing personal information with third parties?
+38. Does the document describe data that is aggregated and de-identified to prevent identification of individual account holders?
+39. Does the document mention the protection of health information?
+40. Does the document discuss the transfer of user information in the event of a business transaction?
